@@ -399,7 +399,8 @@ class Fresque
                     array(
                         $this->runtime['Redis']['host'] . ':' . $this->runtime['Redis']['port'],
                         $this->runtime['Redis']['database'],
-                        $this->runtime['Redis']['namespace']
+                        $this->runtime['Redis']['namespace'],
+                        $this->runtime['Redis']['password']
                     )
                 );
 
@@ -1153,6 +1154,7 @@ class Fresque
                 'port',
                 'database',
                 'namespace',
+                'password'
             ),
             'Fresque' => array(
                 'lib',
