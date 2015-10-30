@@ -1,5 +1,5 @@
 {
-	"name": "fresque-hank/fresque",
+	"name": "fresque/fresque-hank",
 	"description" : "A command line tool to manage your php-resque workers",
 	"keywords": ["php-resque", "resque", "cli", "redis"],
 	"homepage": "http://kamisama.github.com/Fresque/",
